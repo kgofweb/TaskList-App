@@ -1,0 +1,16 @@
+/* Dark theme */
+body.dark-mode {
+  --body-color: #2d3436;
+  --title-color: #F1F3F2;
+}
+
+body {
+  background-color: var(--body-color);
+}
+
+h4, 
+h5,
+label,
+.text {
+  color: var(--title-color);
+}
